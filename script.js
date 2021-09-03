@@ -1,4 +1,4 @@
-const myRequest = new Request('systems.json');
+const myRequest = new Request('assets/systems.json');
 
 fetch(myRequest)
   .then(response => response.json())
