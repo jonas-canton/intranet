@@ -1,19 +1,22 @@
 {
-  "sistemas": [
+  "systems": [
     {
-      "titulo": "Sistema 1",
-      "descricao": "Descrição do sistema 1",
-      "imagem": "img/logo_sistema1.png"
+      "title": "Sistema 1",
+      "description": "Descrição do sistema 1",
+      "logo": "assets/sys1_logo.png",
+      "url": "https://www.google.com"
     },
     {
-      "titulo": "Sistema 2",
-      "descricao": "Descrição do sistema 2",
-      "imagem": "img/logo_sistema2.png"
+      "title": "Sistema 2",
+      "description": "Descrição do sistema 2",
+      "logo": "assets/sys2_logo.png",
+      "url": "https://www.google.com"
     },
     {
-      "titulo": "Sistema 3",
-      "descricao": "Descrição do sistema 3",
-      "imagem": "img/logo_sistema3.png"
+      "title": "Sistema 3",
+      "description": "Descrição do sistema 3",
+      "logo": "assets/sys3_logo.png",
+      "url": "https://www.google.com"
     }
   ]
 }

@@ -36,6 +36,7 @@ main {
 section.cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 section.cards section.card {
@@ -53,24 +54,30 @@ section.cards section.card {
   border-radius: 8px;
 }
 
+section.cards section.card.model {
+  display: none;
+}
+
 section.cards section.card * {
   margin: 8px;
 }
 
-section.cards section.card .icon {
-  width: 64px;
-  height: 64px;
+section.cards section.card .card-icon {
+  width: 80%;
+  height: 30%;
+  overflow: hidden;
+  display: flex;
 }
 
 section.cards section.card img {
   width: 100%;
 }
 
-section.cards section.card .description {
+section.cards section.card .card-description {
   overflow: hidden;
 }
 
-section.cards section.card .button {
+section.cards section.card .card-button {
   text-decoration: none;
   color: #fff;
   background-color: #00AD57;
@@ -78,7 +85,7 @@ section.cards section.card .button {
   border-radius: 5px;
 }
 
-section.cards section.card .button:hover {
+section.cards section.card .card-button:hover {
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
